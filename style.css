@@ -1,8 +1,19 @@
 body {
 	color: black;
 	display: grid;
-	place-content: center;
-	background-image: var(--gradient-15);
+	place-items: center;
+	background-image: var(--gradient-3);
+}
+h1 {
+	background-color: var(--orange-1);
+	margin: var(--size-fluid-2);
+	padding: var(--size-fluid-1);
+	font-size: clamp(3.5rem, 2vw, 8rem);
+	text-align: center;
+	color: var(--red-5);
+	inline-size: var(--size-14);
+	border: var(--orange-1) var(--border-size-1) solid;
+	border-radius: var(--radius-drawn-4);
 }
 
 .card-container {
@@ -12,7 +23,7 @@ body {
 	justify-content: center;
 	gap: var(--size-fluid-4);
 	margin: var(--size-fluid-4);
-	max-width: 1500px;
+	max-width: 2000px;
 }
 
 .card {
